@@ -5,6 +5,7 @@
       <link href="<?php echo ASSETS_URL ?>/www/css/page.css" rel="stylesheet" type="text/css">
    </head>
    <body>
+   <div class="site-wrap">
       <?php $this -> load -> view("www/includes/header.php")?>
       <!--banner end-->
       <section class="page_container">
@@ -65,5 +66,6 @@
          </div>
       </section>
       <?php $this -> load -> view("www/includes/footer.php")?>
+	  </div>
    </body>
 </html>

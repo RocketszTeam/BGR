@@ -66,7 +66,7 @@
                   </div>
                   <div class="form-group">
                      <div class="mb-5 m-5 text-center">
-                        <button type="reset" class="btn btn-warning">清除</button>|<button type="submit" class="btn btn-danger submit_btn" id="submitBtn">送出</button>
+                         <button type="reset" class="btn btn-danger reset_btn">清除</button>|<button type="submit" class="btn btn-danger submit_btn" id="submitBtn">送出</button>
                      </div>
                   </div>
                </form>
@@ -80,26 +80,26 @@
                 </div>
             </div>
               
-              <script>
-              // Disable form submissions if there are invalid fields
-              (function() {
-                'use strict';
-                window.addEventListener('load', function() {
-                  // Get the forms we want to add validation styles to
-                  var forms = document.getElementsByClassName('needs-validation');
-                  // Loop over them and prevent submission
-                  var validation = Array.prototype.filter.call(forms, function(form) {
-                    form.addEventListener('submit', function(event) {
-                      if (form.checkValidity() === false) {
-                        event.preventDefault();
-                        event.stopPropagation();
-                      }
-                      form.classList.add('was-validated');
-                    }, false);
-                  });
-                }, false);
-              })();
-              </script>
+<!--              <script>-->
+<!--              // Disable form submissions if there are invalid fields-->
+<!--              (function() {-->
+<!--                'use strict';-->
+<!--                window.addEventListener('load', function() {-->
+<!--                  // Get the forms we want to add validation styles to-->
+<!--                  var forms = document.getElementsByClassName('needs-validation');-->
+<!--                  // Loop over them and prevent submission-->
+<!--                  var validation = Array.prototype.filter.call(forms, function(form) {-->
+<!--                    form.addEventListener('submit', function(event) {-->
+<!--                      if (form.checkValidity() === false) {-->
+<!--                        event.preventDefault();-->
+<!--                        event.stopPropagation();-->
+<!--                      }-->
+<!--                      form.classList.add('was-validated');-->
+<!--                    }, false);-->
+<!--                  });-->
+<!--                }, false);-->
+<!--              })();-->
+<!--              </script>-->
 
           </div>
           </div>
@@ -110,7 +110,7 @@
     <div class="container">
       <div class="row mt-5 text-center">
         <div class="col-md-12">
-          <p>
+          <p><?php $this -> load -> view("www/includes/body_js.php")?>
           Copyright &copy; <script>document.write(new Date().getFullYear());</script> All Rights Reserved
           </p>
         </div>

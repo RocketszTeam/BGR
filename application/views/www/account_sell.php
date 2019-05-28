@@ -2,19 +2,35 @@
 <html>
    <head>
       <?php $this -> load -> view("www/includes/head.php")?>
-      <link href="<?php echo ASSETS_URL ?>/www/css/page.css" rel="stylesheet" type="text/css">
+
+      <script type="text/javascript">
+         $(function(){
+           $('.payment').click(function(){
+             $('#down-alert').hide();
+             if($(this).attr('data-payment')=='Credit'){
+               $("#down-alert").fadeToggle();
+               $('#depositForm').prop('target','_blank');
+             }else{
+               $('#depositForm').prop('target','_self');
+             }
+           });
+           
+         });
+      </script>
    </head>
    <body>
+   <div class="site-wrap">
       <?php $this -> load -> view("www/includes/header.php")?>
-      <section class="page_container esport_container">
+      <section class="page_container">
          <div class="page_content">
+            <img src="images/left_img1.png" alt="" class="left_img">
             <div class="page_mtitle">Member<b>會員中心</b></div>
             <div class="inner_content">
-
-            <?php $this -> load -> view("www/includes/member_nav.php")?>
-            <div class="member_content">
-			   
-                           <table class="table table-striped history member_table member_record">
+               <?php $this -> load -> view("www/includes/member_nav.php")?>
+               <div class="member_content">
+                  <div class="tab_container">
+                     <div id="tab1" class="tab_content">
+                        <table class="table table-striped history member_table member_record">
                            <thead>
                               <tr>
                                  <th>時    間</th>
@@ -42,14 +58,18 @@
                         <div class="text-center">
                            <?php echo @$pagination ?>
                         </div>
-            </div>
-
-
-
+                        <!--page btn end-->
+                     </div>
+                  </div>
+                  <!-- .tab_container -->
+               </div>
             </div>
             <!--inner_content end-->
+            <img src="images/right_img1.png" alt="" class="right_img">
          </div>
       </section>
+      <!-- Footer -->
       <?php $this -> load -> view("www/includes/footer.php")?>
+	  </div>
    </body>
 </html>

@@ -36,9 +36,9 @@
                      <div class="game_list clearfix">
                         <?php foreach($gameList as $row):?> 
                         <div class="game_unit">
-                           <div class="game_img imgLiquidFill imgLiquid">
+<!--                           <div class="game_img imgLiquidFill imgLiquid">-->
                               <img src="<?php echo UPLOADS_URL?>/games/<?php echo $row["pic1"] ?>" alt="">
-                           </div>
+<!--                           </div>-->
                            <div class="game_title"><?php echo $row["game_name"]?></div>
                            <a href="<?php echo site_url("Opengame?gm=".$row["makers_num"]."&GameCode=".$row["game_code"])?>" class="game_btn">進入遊戲<i class="fa fa-caret-right"></i></a>
                            <a href="javascript:openwindow('<?php echo site_url("Fungame?gm=".$row["makers_num"]."&GameCode=".$row["game_code"])?>')" class="game_btn game_btn_go">免費試玩<i class="fa fa-caret-right"></i></a>

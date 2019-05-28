@@ -18,13 +18,23 @@
           </div>
         </div>
         <div class="row">
+<!--            <div class="col-xl-4 col-md-4 col-6 mb-5">-->
+<!--                <div class="media-image">-->
+<!--                    <img src="--><?php //echo ASSETS_URL ?><!--/www/images/g_sxb.jpg" alt="Image" class="img-fluid">-->
+<!--                    <div class="media-image-body">-->
+<!--                        <h2 class="font-secondary text-uppercase">SXB體育</h2>-->
+<!--                        <p>Super Sport</p>-->
+<!--                        <p><a href="#" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
           <div class="col-xl-4 col-md-4 col-6 mb-5">
             <div class="media-image">
-              <img src="<?php echo ASSETS_URL ?>/www/images/g_xsb.jpg" alt="Image" class="img-fluid">
+              <img src="<?php echo ASSETS_URL ?>/www/images/g_super.jpg" alt="Image" class="img-fluid">
               <div class="media-image-body">
-                <h2 class="font-secondary text-uppercase">鑫寶體育</h2>
-                <p>XSB Sport</p>
-                <p><a href="#" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
+                <h2 class="font-secondary text-uppercase">Super體育</h2>
+                <p>Super Sport</p>
+                <p><a href="<?php echo site_url('Opengame?gm=8')?>" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
               </div>
             </div>
           </div>
@@ -34,7 +44,7 @@
                 <div class="media-image-body">
                   <h2 class="font-secondary text-uppercase">泛亞電競</h2>
                   <p>SPBO</p>
-                  <p><a href="#" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
+                  <p><a href="<?php echo site_url('Opengame?gm=35')?>" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
                 </div>
               </div>
             </div>
@@ -43,7 +53,7 @@
               <img src="<?php echo ASSETS_URL ?>/www/images/g_xl.jpg" alt="Image" class="img-fluid">
               <div class="media-image-body">
                 <h2 class="font-secondary text-uppercase">體球王</h2>
-                <p>SPBO</p>
+                <p>Sport</p>
                 <p><a href="#" class="btn btn-primary text-white px-4"><span class="caption">敬請期待</span></a></p>
               </div>
             </div>
@@ -63,7 +73,7 @@
               <div class="media-image-body">
                 <h2 class="font-secondary text-uppercase">DG 真人廳</h2>
                 <p>DREAMING GAMES</p>
-                <p><a href="#" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
+                <p><a href="<?php echo site_url('Opengame?gm=12')?>" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
               </div>
             </div>
           </div>
@@ -73,7 +83,7 @@
               <div class="media-image-body">
                 <h2 class="font-secondary text-uppercase">沙龍 真人廳</h2>
                 <p>SA CASINO</p>
-                <p><a href="#" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
+                <p><a href="<?php echo site_url('Opengame?gm=9')?>" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
               </div>
             </div>
           </div>
@@ -83,7 +93,7 @@
               <div class="media-image-body">
                 <h2 class="font-secondary text-uppercase">WM 真人廳</h2>
                 <p>WM CASINO</p>
-                <p><a href="#" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
+                <p><a href="<?php echo site_url('Opengame?gm=13')?>" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
               </div>
             </div>
           </div>
@@ -93,7 +103,7 @@
                 <div class="media-image-body">
                   <h2 class="font-secondary text-uppercase">歐博 真人廳</h2>
                   <p>ALLBET CASINO</p>
-                  <p><a href="#" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
+                  <p><a href="<?php echo site_url('Opengame?gm=3')?>" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
                 </div>
               </div>
             </div>
@@ -128,6 +138,16 @@
               </div>
             </div>
           </div>
+            <div class="col-xl-4 col-md-4 col-6 mb-5">
+                <div class="media-image">
+                    <img src="<?php echo ASSETS_URL ?>/www/images/g_7pk.jpg" alt="Image" class="img-fluid">
+                    <div class="media-image-body">
+                        <h2 class="font-secondary text-uppercase">7PK電子</h2>
+                        <p>7PK SLOTS</p>
+                        <p><a href="<?php echo site_url('Opengame?gm=22')?>" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!----捕魚----->
@@ -144,7 +164,7 @@
                 <div class="media-image-body">
                   <h2 class="font-secondary text-uppercase">RTG捕魚</h2>
                   <p>漁民樂</p>
-                  <p><a href="#" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
+                  <p><a href="<?php echo site_url('Opengame?gm=51&GameCode=2162689')?>" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
                 </div>
               </div>
             </div>
@@ -154,7 +174,7 @@
                   <div class="media-image-body">
                     <h2 class="font-secondary text-uppercase">EG捕魚</h2>
                     <p>爆金捕魚</p>
-                    <p><a href="#" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
+                    <p><a href="<?php echo site_url('Opengame?gm=64')?>" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
                   </div>
                 </div>
               </div>
@@ -194,7 +214,7 @@
               <div class="media-image-body">
                 <h2 class="font-secondary text-uppercase">Xin-Hao LOTTERY</h2>
                 <p>新豪彩票</p>
-                <p><a href="#" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
+                <p><a href="<?php echo site_url('Opengame?gm=62')?>" class="btn btn-primary text-white px-4"><span class="caption">遊戲介紹</span></a></p>
               </div>
             </div>
           </div>

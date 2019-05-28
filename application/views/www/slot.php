@@ -19,18 +19,20 @@
                <div class="game_list">
                   
                   <div class="game_unit">
-                     <div class="game_img imgLiquidFill imgLiquid">
-                        <img src="<?php echo ASSETS_URL?>/www/images/game/game_7pk.png" alt="">
-                     </div>
+<!--                     <div class="game_img imgLiquidFill imgLiquid">-->
+<!--                        <img src="--><?php //echo ASSETS_URL?><!--/www/images/game/game_7pk.png" alt="">-->
+<!--                     </div>-->
+                     <img src="<?php echo ASSETS_URL?>/www/images/g_7pk.jpg" alt="">
                      <div class="game_title">7PK</div>
                      <a href="<?php echo site_url("Opengame?gm=22")?>" target="_blank" class="game_btn">進入遊戲<i class="fa fa-caret-right"></i></a>
                   </div>
 				  
 				  <!--RTG-->
                   <div class="game_unit">
-                     <div class="game_img imgLiquidFill imgLiquid">
-                        <img src="<?php echo ASSETS_URL?>/www/images/game/game_rtg.png" alt="">
-                     </div>
+<!--                     <div class="game_img imgLiquidFill imgLiquid">-->
+<!--                        <img src="--><?php //echo ASSETS_URL?><!--/www/images/game/game_rtg.png" alt="">-->
+<!--                     </div>-->
+                     <img src="<?php echo ASSETS_URL?>/www/images/g_rtg.jpg" alt="">
                      <div class="game_title">RTG</div>
                      <a href="<?php echo site_url("Slot/rtg")?>" target="_blank" class="game_btn">進入遊戲<i class="fa fa-caret-right"></i></a>
                   </div>

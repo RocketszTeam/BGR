@@ -3,6 +3,7 @@
    <head>
       <?php $this -> load -> view("www/includes/head.php")?>
       <link href="<?php echo ASSETS_URL ?>/www/css/page.css" rel="stylesheet" type="text/css">
+      <script type="text/javascript" src="<?php echo ASSETS_URL?>/www/js/account.js"></script>
    </head>
    <body>
       <?php $this -> load -> view("www/includes/header.php")?>

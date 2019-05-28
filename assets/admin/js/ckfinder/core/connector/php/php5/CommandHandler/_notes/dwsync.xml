@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="CommandHandlerBase.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="CopyFiles.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="CreateFolder.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="DeleteFiles.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="DeleteFolder.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="DownloadFile.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="FileUpload.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="GetFiles.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="GetFolders.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="Init.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="LoadCookies.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="MoveFiles.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="QuickUpload.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="RenameFile.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="RenameFolder.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="Thumbnail.php" server="ac8888.net//public_html/" local="130988762560000000" remote="131153511600000000" Dst="0" />
+<file name="XmlCommandHandlerBase.php" server="ac8888.net//public_html/" local="130988762580000000" remote="131153511600000000" Dst="0" />
+</dwsync>
