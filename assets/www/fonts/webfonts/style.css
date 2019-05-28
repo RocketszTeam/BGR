@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'webfonts';
+  src:  url('fonts/webfonts.eot?27f4in');
+  src:  url('fonts/webfonts.eot?27f4in#iefix') format('embedded-opentype'),
+    url('fonts/webfonts.ttf?27f4in') format('truetype'),
+    url('fonts/webfonts.woff?27f4in') format('woff'),
+    url('fonts/webfonts.svg?27f4in#webfonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'webfonts' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shopping-bag:before {
+  content: "\e905";
+}
+.icon-notice:before {
+  content: "\e904";
+}
+.icon-close:before {
+  content: "\e903";
+}
+.icon-clock:before {
+  content: "\e902";
+}
+.icon-speak:before {
+  content: "\e901";
+}
+.icon-user:before {
+  content: "\e900";
+}
+

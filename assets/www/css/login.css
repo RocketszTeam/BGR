@@ -1,0 +1,33 @@
+.site-wrap {
+    max-width: 1500px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.login-body {
+    min-height: 63vh;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.site-footer {
+    padding:0;
+    background: transparent;
+    color: #000;
+}
+
+img#regImg, img#chkImg {
+    float: right;
+    margin-top: -4.7em;
+    margin-right: .4em;
+    z-index: 999;
+    position: relative;
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: 0.6em;
+    margin-left: -1rem;
+}
