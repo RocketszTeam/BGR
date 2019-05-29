@@ -1,1 +1,0 @@
-{"id":"46972","StoreID":"HT2019W1016","Amount":"1000","Currency":"TWD","PayMethod":"VBANK","PayInfo":"\u5546\u57ce\u5546\u54c1","StoreOrderId":"AH15572306927027","PayName":"User","PayPhone":"0900000630","PayEmail":"payment441@gmail.com","UserId":"","CSPayCode":"","PayDate":"2019\/05\/07","errorcode":"00","Chksum":"3b84a54db2c0ba94712020783fba9b2c"}
