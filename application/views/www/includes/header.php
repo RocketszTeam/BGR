@@ -37,7 +37,7 @@
                     <li><a href="<?php echo site_url("active")?>">優惠情報</a></li>
                     <li><a href="<?php echo site_url("about")?>">關於我們</a></li>
                     <li><a href="<?php echo site_url("reseller")?>">合營代理</a></li>
-                    <li><a href="#">聯絡我們</a></li>
+                    <li><a href="http://line.naver.jp/ti/p/UHxpyJFKMj">聯絡我們</a></li>
                     <li><a href="<?php echo site_url("Manger/account") ?>"><span class="d-inline-block p-3 bg-primary text-white btn btn-primary">會員中心</span></a></li>
 					<li><a href="<?php echo site_url("Index/logout") ?>"><span class="d-inline-block p-3 bg-primary text-white btn btn-primary">登出</span></a></li>
                   </ul>

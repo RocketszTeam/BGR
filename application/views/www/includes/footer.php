@@ -3,10 +3,10 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-          <h4 class="text-uppercase text-white mb-0">若對於商品或服務項目有疑問，歡迎洽詢24小時線上客服，竭誠服務。</h4>
+          <h4 class="text-uppercase text-white mb-0">若對於商品或服務項目有疑問，歡迎洽詢24小時線上客服【LINE：b.g.r_consultant】竭誠服務。</h4>
         </div>
         <div class="col-md-3 ml-auto text-center text-md-left">
-          <a href="#" class="btn btn-bg-primary d-inline-block d-md-block font-secondary text-uppercase">線上客服</a> 
+          <a href="http://line.naver.jp/ti/p/UHxpyJFKMj" class="btn btn-bg-primary d-inline-block d-md-block font-secondary text-uppercase">線上客服</a> 
         </div>
       </div>
     </div>
