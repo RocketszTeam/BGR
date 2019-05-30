@@ -19,7 +19,7 @@
       <div class="row">
         <div class="col-md-5">
           <h3 class="footer-heading mb-4 text-white">Note.</h3>
-          <p>-投資一定有風險，申購前應詳閱公開說明書-</p>
+          <p>- 投資必有有風險，請謹慎理財 -</p>
           <p>- Investment must be risky, please read the prospectus before purchasing - </p>
           <!-- <p><a href="#" class="btn btn-primary rounded text-white px-4">Read More</a></p> -->
         </div>
@@ -45,7 +45,8 @@
         <div class="col-md-12">
           <p>
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          Copyright &copy; <script>document.write(new Date().getFullYear());</script> All Rights Reserved
+          <!-- Copyright &copy; <script>document.write(new Date().getFullYear());</script> All Rights Reserved -->
+          Copyright &copy; 2012 All Rights Reserved
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
           </p>
         </div>
